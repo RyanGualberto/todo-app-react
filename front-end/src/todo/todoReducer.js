@@ -1,18 +1,6 @@
 const INITIAL_STATE = {
-        description: 'ler livro',
-        list: [{
-            _id: 1,
-            description: 'Pagar Fatura',
-            done: true
-        }, {
-            _id: 2,
-            description: 'Reunião às 22',
-            done: false
-        }, {
-            _id: 3,
-            description: 'consulta',
-            done: false
-        }]
+        description: '',
+        list: []
     }
 
     export default (state = INITIAL_STATE, action) => {
