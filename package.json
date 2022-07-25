@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "redux-multi": "^0.1.12"
+    "redux-multi": "^0.1.12",
+    "redux-thunk": "^2.2.0"
   }
 }
