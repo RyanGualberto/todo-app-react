@@ -46,7 +46,7 @@ class TodoForm extends Component {
                     icon="plus"
                     onClick={() => add(description)}
                 />
-                <IconButton style="info" icon="search" onClick={() => search()} />
+                <IconButton style="info" icon="search" onClick={() => search( )} />
                 <IconButton style="default" icon="close" onClick={this.props.handleClear} />
             </Grid  >
         </div>
